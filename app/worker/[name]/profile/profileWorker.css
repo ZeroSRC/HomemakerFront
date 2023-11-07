@@ -1,0 +1,144 @@
+.fullfill{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    
+}
+.fullfill .container-userprofile{
+    width: 40%;
+    min-width: 480px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 40px;
+}
+.fullfill .container-userprofile .Title-profile{
+    margin-top: 30px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.fullfill .container-userprofile .bx-data{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.fullfill .container-userprofile .bx-data .warp{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.fullfill .container-userprofile .bx-data .warp .warp-area{
+    display: flex;
+    flex-direction: row;
+}
+.fullfill .container-userprofile .bx-data .warp .warp-area h5{
+    color: #bb090f;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+.fullfill .container-userprofile .bx-data .warp input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    width: 90%;
+    padding: 8px 3% 8px 3%;
+    border-radius: 5px;
+}
+.fullfill .container-userprofile .btn-update-profile{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 30px;
+    font-family: 'Prompt', sans-serif;
+    /* padding: 10px 24% 10px 24%; */
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #e9b640;
+}
+.fullfill .container-userprofile .btn-update-profile:hover{
+    background: #bb8509;
+    transition: all 200ms;
+}
+/* ข้างล่าง */
+.fullfill .container-userprofiletwo{
+    width: 40%;
+    min-width: 480px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+}
+.fullfill .container-userprofiletwo .Title-work{
+    margin-top: 30px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.fullfill .container-userprofiletwo .bx-data{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fullfill .container-userprofiletwo .bx-data .warp-area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.fullfill .container-userprofiletwo .bx-data .warp-area{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.fullfill .container-userprofiletwo .bx-data .warp-area h5{
+    color: #bb090f;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+.fullfill .container-userprofiletwo .bx-data select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    width: 90%;
+    padding: 8px 3% 8px 3%;
+    border-radius: 5px;
+}
+.fullfill .container-userprofiletwo .btn-update-profile{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 30px;
+    font-family: 'Prompt', sans-serif;
+    /* padding: 10px 24% 10px 24%; */
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #e9b640;
+}
+.fullfill .container-userprofiletwo .btn-update-profile:hover{
+    background: #bb8509;
+    transition: all 200ms;
+}

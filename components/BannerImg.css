@@ -1,0 +1,18 @@
+.banner{
+    width: 100%;
+    height: 400px;
+    overflow: hidden; 
+    position: relative; 
+}
+.banner .bannerimg{
+    height: auto; 
+    left: 50%;
+    max-height: none; 
+    max-width: 100%; 
+    min-height: 100%; 
+    min-width:100%; 
+    position: absolute; 
+    top: 50%; 
+    transform: translate(-50%,-50%); 
+    width: auto; 
+}

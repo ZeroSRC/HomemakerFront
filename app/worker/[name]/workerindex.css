@@ -1,0 +1,36 @@
+.exprian-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.exprian-box .HowToWork{
+    margin: 40px 0 40px 0;
+    width: 40%;
+    min-width: 480px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.exprian-box .HowToWork .title{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exprian-box .HowToWork .detail1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    width:80%;
+}
+.exprian-box .HowToWork .detail2{
+    margin-top: 10;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    width:80%;
+}

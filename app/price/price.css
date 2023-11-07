@@ -1,0 +1,104 @@
+.price-box{        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+/* ส่วนกล่องบน */
+.price-box .top-price-box{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.price-box .top-price-box .price-box-contain{
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 342px;
+    height: 400px;
+    border: 0.5px solid #e1e1e1;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.price-box .top-price-box .price-box-contain:hover{
+    transform: scale(1.1);
+}
+.price-box .top-price-box .price-box-contain .area-work{
+    margin:15px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price-box .top-price-box .price-box-contain .area-work .second-detail{
+    color: #707070;
+}
+.price-box .top-price-box .price-box-contain .area-work h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 34px;
+    margin: 0 0 0 0;
+    color: #B88E2F;
+}
+.price-box .top-price-box .price-box-contain .detail-price{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 90%;
+    border-top:0.5px solid #e1e1e1 ;
+    border-bottom:0.5px solid #e1e1e1 ;
+    margin-bottom: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #707070;
+}
+.price-box .top-price-box .price-box-contain .detail-price .price-hour{
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 5px 0 5px 0;
+}
+.price-box .top-price-box .price-box-contain .btn-price{
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+    padding: 10px 25px 10px 25px;
+    border-radius:5px;
+    background-color: #fff;
+    border: 1px solid #707070;
+}
+.price-box .top-price-box .price-box-contain .btn-price:hover{
+    background-color: #707070;
+    color: white;
+}
+
+/* ส่วนกล่องล่างงง */
+.price-box .under-price-box{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.price-box .under-price-box .detail-price{
+    display: block;
+    width: 74%;
+    min-width: 342px;
+    font-family: 'Prompt', sans-serif;
+    border: 0.5px solid #e1e1e1;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.price-box .under-price-box .detail-price p{
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 2.5% 5% 2.5% 5%;
+    color: #707070;
+}

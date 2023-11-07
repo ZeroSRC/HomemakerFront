@@ -1,0 +1,85 @@
+.card {
+  font-family: 'Prompt', sans-serif;
+  width:80%;
+  min-width:350px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.expanded {
+  height: auto; /* สามารถปรับสูงสุดเท่าที่คุณต้องการ */
+}
+.card-header {
+  width: 100%;
+  background-color: #e9b640;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-header .thb{
+  /* สไตล์ส่วนหัวของการ์ด */
+  height: 60px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-header .thb button {
+    font-family: 'Prompt', sans-serif;
+    background-color: #3d3d3d;
+    width: 100px;
+    padding: 8px 0 8px 0;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 0;
+}
+.card-header .thb button:hover{
+  background-color: #242424;
+}
+
+.card-content {
+  /* สไตล์เนื้อหาหลักของการ์ด */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.card-content .box-con{
+  margin-top: 10px;
+  width: 95%;
+  color: #2e2e2e;
+}
+.card-content .additional-info {
+  /* สไตล์ข้อมูลเพิ่มเติม */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-content .additional-info .bx-info{
+  margin: 0 0 0 0;
+  padding:  0 0 0 0;
+  width: 95%;
+  color: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+}
+.card-content .additional-info .bx-info p{
+  margin: 8px 0 8px 0;
+  padding: 0 0 0 0;
+}

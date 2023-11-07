@@ -1,0 +1,304 @@
+.Boxbooking{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Boxbooking .Form{
+    margin: 40px 0 40px 0;
+    width: 40%;
+    min-width: 480px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Boxbooking .Form .title{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Boxbooking .Form .tilte-second{
+    margin:0 0 10px 0;
+    font-size: 16px;
+    color: #292929;
+}
+.Boxbooking .Form .BoxContainService {
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Boxbooking .Form .BoxContainService .select-service{
+    margin-top: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    display: block;
+    width: 100%;
+    min-width: 350px;
+    padding: 8px 2.5% 8px 2.5%;
+    border-radius: 5px;
+}
+.Boxbooking .Form .BoxContainTime{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Boxbooking .Form .BoxContainTime .select-timework{
+    margin-top: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    display: block;
+    width: 100%;
+    min-width: 350px;
+    padding: 8px 2.5% 8px 2.5%;
+    border-radius: 5px;
+}
+.Boxbooking .Form .BoxAddress{
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Boxbooking .Form .BoxAddress .Checkbox-address{
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    align-items: center;
+}
+.Boxbooking .Form .BoxAddress .Checkbox-address span{
+    margin: 5px 0 0 0;
+    height: 20px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.Boxbooking .Form .BoxAddress .Checkbox-address input{
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px 0 0;
+
+}
+
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    width: 95%;
+    padding: 8px 2.5% 8px 2.5%;
+    border-radius: 5px;
+}
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    width: 100%;
+    padding: 8px 2.5% 8px 2.5%;
+    border-radius: 5px;
+}
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees .BoxdetialNewAdress {
+    display: flex;
+    flex-direction: row;
+}
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees .BoxdetialNewAdress label{
+    margin-right: 10px;
+}
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees .BoxdetialNewAdress div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(205, 86, 86);
+}
+.Boxbooking .Form .BoxDatetimeForwork{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Boxbooking .Form .BoxDatetimeForwork .Sensitive{
+    color: rgb(233, 137, 64);
+    font-weight: 300;
+}
+.Boxbooking .Form .BoxDatetimeForwork .BoxDateTime{
+    display: flex;
+    width: 100%;
+}
+.Boxbooking .Form .BoxDatetimeForwork .BoxDateTime input{
+    margin-top: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    width: 80%;
+    padding: 8px 5% 8px 5%;
+    border-radius: 5px;
+}
+.Boxbooking .Form .BoxDatetimeForwork .BoxDateTime .da{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.Boxbooking .Form .BoxDatetimeForwork .BoxDateTime .ti{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.Boxbooking .Form .BoxPrice{
+    margin-top: 10px;
+    padding: 30px 0 30px 0;
+    border-top:0.52px solid#d1d1d1 ;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Boxbooking .Form .btn-next{
+    margin-bottom: 50px;
+    width: 80%;
+    padding: 10px 0 10px 0;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: #e9b640;
+    
+}
+.Boxbooking .Form .btn-next:hover{
+    background-color: white;
+    color: #e9b640;
+    border: 1px solid #e9b640;
+}
+/* ส่วน From2 */
+.Boxbooking .FormTwo{
+    margin: 40px 0 40px 0;
+    width: 40%;
+    min-width: 480px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Boxbooking .FormTwo .Title{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.Boxbooking .FormTwo .box-pic{
+    width: 70%;
+    height: auto;
+}
+.Boxbooking .FormTwo .box-pic img{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.Boxbooking .FormTwo .deatail-box{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Boxbooking .FormTwo .box-btn {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.Boxbooking .FormTwo .box-btn button{
+    width: 100px;
+    padding: 8px 0 8px 0;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 0;
+}
+.Boxbooking .FormTwo .box-btn button:hover{
+    transform: scale(1.05);
+}
+.Boxbooking .FormTwo .box-btn .btn1{
+    background-color: #e94065;
+}
+.Boxbooking .FormTwo .box-btn .btn2{
+    background-color: #292929;
+}
+/* ส่วนฟอมสามแสดงเสร็จสิ้น */
+.Boxbooking .FormThree{
+    margin: 40px 0 40px 0;
+    width: 40%;
+    min-width: 480px;
+    height: 480px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Boxbooking .FormThree .iconfinish{
+    margin:80px 0 20px 0 ;
+    width: 120px;
+    height: auto;
+    color:rgb(14, 189, 247);
+}
+.Boxbooking .FormThree .Btn-finish-booking{
+    margin:100px 0 0 0 ;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 5px 0;
+    background-color:rgb(14, 189, 247);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.Boxbooking .FormThree .th{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    width: 100%;
+}
+.Boxbooking .FormThree .td{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    width: 100%;
+}
+.Boxbooking .FormThree .Btn-finish-booking:hover{
+    border: 3px solid rgb(14, 189, 247);
+    background-color: white;
+    color: rgb(14, 189, 247);
+}

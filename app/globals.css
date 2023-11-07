@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+@import url('https://fonts.cdnfonts.com/css/arial');
+body{
+  margin: 0;
+  background-color: #ffffff;
+  font-family: 'Prompt', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  overflow-x:hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  
+}

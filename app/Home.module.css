@@ -1,0 +1,212 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.boxHeader{
+    position: absolute;
+    background-color: #FCFCFC;
+    color: rgb(31, 31, 31);
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.detailBoxHeader1{
+    text-align: center;
+    margin: 0 0 0 0;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    padding: 0% 10% 5% 10%;
+}
+.button5 {
+    font-family: 'Prompt', sans-serif;
+    position: relative;
+    align-items: center;
+    color: white;
+    background-clip: padding-box;
+    background-color: #ffb407;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 40px 10px 40px;
+}
+.button5:hover,
+.button5:focus {
+    background-color: #e4a206;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button5:hover {
+    transform: translateY(-1px);
+}
+
+.button5:active {
+    background-color: #e4a206;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+.boxcontain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerServiceshowbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.BoxShowservice{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.article{
+    width: 316.6666666666667px;
+    height: 500px;
+    margin: 15px 25px 15px 25px;
+    border-radius: 15px;
+    object-fit: cover;
+    overflow: hidden;
+    border: 0.5px solid rgba(100, 100, 111, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 29px 0px;
+}
+.article:hover {
+    transform: scale(1.1);
+    border: 2px solid #ffb407;
+}
+.imgservice {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.titleservice{
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20;
+}
+.detailservice{
+    margin: 0;
+    width: 80%;
+    height: 20%;
+    overflow: hidden;
+}
+.btnservicebox{
+    width: 80%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+}
+.btnsyle {
+    font-family: 'Prompt', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 83.3333px;
+    height: 25px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(100, 100, 111, 0.2);
+}
+.btnsyle:hover{
+    border: 1px solid #ffb407;
+    background-color: #ffb407;
+    color: white;
+}
+.pricedetail{
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    height: 10%;
+}
+.tice{
+    color: rgb(253, 216, 5);
+}
+.poppularlabel{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.tide{
+    color: #ff6600;
+}
+.HowDoing{
+    width: 100%;
+    background: #f5f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TitleHowDO{
+    margin: 40px 0 20px 0;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    color: rgb(19, 19, 19);
+}
+.DeatialHowdo{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    width: 80%;
+}
+.boxHowDo{
+    margin: 10px 15px 10px 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.IconHowdo{
+    padding: 25px 25px 25px 25px;
+    width: 70px;
+    height: 70px;
+    border: 0;
+    color: #ffb407;
+}
+.TitleinboxHowdo{
+    margin: 20px 0 10px 0;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb(31, 31, 31);
+}
+.DeatailinboxHowdo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 30px 0px 30px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    height: 100px;
+    color: rgb(31, 31, 31);
+}

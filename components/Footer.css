@@ -1,0 +1,69 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(207, 206, 206);
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 14px;
+}   
+.Footer .top-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+.Footer .top-footer .ft-l-contain{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding-top: 20px;
+}
+.Footer .top-footer .ft-l-contain .detail-f{
+    margin-top: 10px;
+    width: 50%;
+}
+.Footer .top-footer .ft-r-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35%;
+    padding-top: 20px;
+}
+.Footer .top-footer .ft-r-contain .link-f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Footer .top-footer .ft-r-contain .link-f .d{
+    margin: 10px 0 0px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.Footer .top-footer .ft-r-contain .link-f .title{
+    border-bottom: 3px solid #B88E2F;
+}
+.Footer .top-footer .ft-r-contain .contact-f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Footer .top-footer .ft-r-contain .contact-f .title{
+    border-bottom: 3px solid #B88E2F;
+}
+.Footer .top-footer .ft-r-contain .contact-f .d{
+    margin: 10px 0 0px 0;
+}
+.Footer .under-footer{
+    width: 70%;
+    border-top: 1px solid rgb(207, 206, 206);
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
