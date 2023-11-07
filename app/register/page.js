@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import Navbar from '@/components/Navbar'
 import "./register.css"
 import Link from 'next/link';
-import Image from 'next/image';
 import axios from 'axios';
 export default function Register() {
   const [inputName, setInputName] = useState('');
