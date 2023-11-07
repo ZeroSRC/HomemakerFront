@@ -17,15 +17,16 @@ export default function Price() {
     }
     
     const {isLogin,role,username} = useContext(UserContext);
-    const BookingBtn = () =>{
+    const BookingBtn = () => {
+      const token = refstorage.getItem("token"); // ใช้ refstorage แทน localStorage
       if (token) {
         if (role === "users") {
-          window.location = "/users/"+username+"/booking";
+          window.location = "/users/" + username + "/booking";
         } else if (role === "workers") {
-          alert("press login user account")
+          alert("press login user account");
         }
       } else {
-        window.location = "/login"
+        window.location = "/login";
       }
     }
     return (
