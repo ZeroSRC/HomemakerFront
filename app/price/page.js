@@ -4,7 +4,18 @@ import { UserContext } from '@/components/islogin';
 import Navbar from '@/components/Navbar'
 import "./price.css"
 export default function Price() {
-    const token = localStorage.getItem("token");
+  if (typeof localStorage !== 'undefined') {
+    if (isLogin == "true") {
+        const roleToken = localStorage.getItem("role")
+        if (roleToken){
+            if (role == 'users') {
+                window.location = "/"
+            } else if (role == 'workers') {
+                window.location = "/worker/" + username
+            }
+        }
+    }
+    
     const {isLogin,role,username} = useContext(UserContext);
     const BookingBtn = () =>{
       if (token) {
@@ -77,4 +88,4 @@ export default function Price() {
     </>
     )
   }
-  
+}

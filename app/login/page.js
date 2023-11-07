@@ -45,16 +45,23 @@ export default function Login() {
         });
     }
     // เช็ค login อยู่แล้ว
-    if (isLogin == "true") {
-        const roleToken = localStorage.getItem("role")
-        if (roleToken){
-            if (role == 'users') {
-                window.location = "/"
-            } else if (role == 'workers') {
-                window.location = "/worker/" + username
+    if (typeof localStorage !== 'undefined') {
+        if (isLogin == "true") {
+            const roleToken = localStorage.getItem("role")
+            if (roleToken){
+                if (role == 'users') {
+                    window.location = "/"
+                } else if (role == 'workers') {
+                    window.location = "/worker/" + username
+                }
             }
         }
-    }
+      } else {
+        // กรณีที่ localStorage ไม่รองรับ (เช่นในสภาพแวดล้อมของ server-side rendering)
+        // คุณสามารถทำงานตามแบบที่ไม่ใช้ localStorage หรือใช้วิธีการอื่นในกรณีที่ไม่สามารถใช้ localStorage ได้
+        // เช่น ใช้คำสั่งเรียก API หรือใช้ตัวแปรทั่วไป
+      }
+    
     return (
         <>      
             <Navbar></Navbar>
