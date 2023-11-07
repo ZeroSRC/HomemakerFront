@@ -71,7 +71,7 @@ export default function Register() {
       <div className='container-register'>
         <form className='box-regiter' onSubmit={save}>
           <div className='space-imgretext'>
-            <Image className="pic-logo" src="/Logo-base.png" width={60} height={60} alt="Picture of the author"></Image>
+            <img className="pic-logo" src="/Logo-base.png" width={60} height={60} alt="Picture of the author"/>
             <div className='text-title-page'>สมัครสมาชิก</div>
             <div className='box-input-register'>
               <div className='box-name-role'>

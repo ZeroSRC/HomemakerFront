@@ -2,7 +2,6 @@
 import React, { useState,useContext } from 'react'
 import Navbar from '@/components/Navbar'
 import "./login.css"
-import Image from 'next/image'
 import Link from 'next/link'
 import axios from 'axios';
 import { UserContext } from '@/components/islogin';
@@ -61,7 +60,6 @@ export default function Login() {
         // คุณสามารถทำงานตามแบบที่ไม่ใช้ localStorage หรือใช้วิธีการอื่นในกรณีที่ไม่สามารถใช้ localStorage ได้
         // เช่น ใช้คำสั่งเรียก API หรือใช้ตัวแปรทั่วไป
       }
-    
     return (
         <>      
             <Navbar></Navbar>
@@ -71,7 +69,7 @@ export default function Login() {
                         <img src='/banner-login.png' />
                     </div>
                     <div className='box-spacelogin'>
-                        <Image className="pic-logo" src="/Logo-base.png" width={70} height={70} alt="Picture of the author"></Image>
+                        <img class="pic-logo" src="/Logo-base.png" width="70" height="70" alt="Picture of the author" />
                         <div className='text-title-page'>
                             เข้าสู่ระบบ
                         </div>
