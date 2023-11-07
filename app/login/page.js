@@ -25,13 +25,13 @@ export default function Login() {
             const data = response.data;
             if (data.status === "success") {
                 if (data.role === "users"){
-                    localStorage.setItem("token", data.token);
-                    localStorage.setItem("role", data.role);
+                    refstorage.setItem("token", data.token);
+                    refstorage.setItem("role", data.role);
                     window.location = "/" ;
                     alert("ล็อคอินผู้ใช้เสร็จสิ้น");
                 } else if (data.role === "workers"){
-                    localStorage.setItem("token", data.token);
-                    localStorage.setItem("role", data.role);
+                    refstorage.setItem("token", data.token);
+                    refstorage.setItem("role", data.role);
                     window.location = "/worker/" + userName;
                     alert("ล็อคอินผู้ทำงานเสร็จสิ้น");
                 }
